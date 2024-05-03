@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Pixel Painter</title>
+</head>
+<body>
+    <div id="menu">
+        <div id="buttons">
+            <button id="download">Pobierz</button>
+            <button id="clear" onclick="w()">Wyczyść</button>
+        </div>
+        <div id="dev-ops-div">
+            <p id="color-printer">Kolor: </p>
+            <div id="dev-ops">
+                 <div id="D1">
+                    <div id="D2" onclick="dev()"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="container" onmousedown="start()" onmouseup="end()">
+        <div id="paleta">
+            <button id="Red" class="color-button" style="background-color: #F00;" value="#F00" onclick="Color()"></button>
+            <button id="Orange" class="color-button" style="background-color: rgb(255, 136, 0);" onclick="Color()" value="rgb(255, 136, 0)"></button>
+            <button id="Yellow" class="color-button" style="background-color: rgb(242, 255, 0);" onclick="Color()" value="rgb(242, 255, 0)"></button>
+            <button id="Green" class="color-button" style="background-color: rgb(0, 255, 17);"onclick="Color()" value="rgb(0, 255, 17)"></button>
+            <button id="Dark-Green" class="color-button" style="background-color: rgb(7, 90, 0);" onclick="Color()" value="rgb(7, 90, 0)"></button>
+            <button id="aqua" class="color-button" style="background-color: rgb(0, 242, 255);" onclick="Color()" value="rgb(0, 242, 255)"></button>
+            <button id="blue" class="color-button" style="background-color: rgb(0, 0, 255);" onclick="Color()" value="rgb(0, 0, 255)"></button>
+            <button id="grey" class="color-button" style="background-color: rgb(50, 50, 50);" onclick="Color()" value="rgb(50, 50, 50)"></button>
+            <button id="brown" class="color-button" style="background-color: rgb(67, 44, 12);" onclick="Color()" value="rgb(67, 44, 12)"></button>
+            <button id="black" class="color-button" style="background-color: rgb(0, 0, 0);" onclick="Color()" value="rgb(0, 0, 0)"></button>
+            <button id="white" class="color-button" style="background-color: rgb(255, 255, 255);" onclick="Color()" value="rgb(255, 255, 255)">🗑</button>
+            <input type="color" name="color" id="input-color" class="color-button" onclick="CFI()" onblur="CFI()">
+        </div>
+        <div id="con2">
+            <div id="plotno"></div>
+        </div>
+    </div>
+    <footer>
+        <p>😀by Collappo ✔</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
