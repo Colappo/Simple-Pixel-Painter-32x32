@@ -104,7 +104,7 @@ document.getElementById('download').addEventListener('click', function() {
         var imgData = canvas.toDataURL('image/png');
         var link = document.createElement('a');
         link.href = imgData;
-        link.download = 'div-content.png';
+        link.download = 'pixel.png';
         link.click();
     });
 });
