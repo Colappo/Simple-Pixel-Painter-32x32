@@ -119,7 +119,7 @@ p {
     padding: 0;
     border-radius: 10px;
     transition: 200ms ease-in-out;
-    font-size: 24px;
+    font-size: 0px;
 }
 
 .color-button:hover {
@@ -175,4 +175,68 @@ footer{
     justify-content: center;
     align-items: center;
     color: #FFFFFF;
+}
+
+.btns {
+    background: #ffffff;
+    width: 15.625px;
+    height: 15.625px;
+}
+
+#pixels {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+#Red {
+    background: #ff0000;
+}
+
+#Orange {
+    background: #ff8800;
+}
+
+#Yellow {
+    background: #f2ff00;
+}
+
+#Green {
+    background: #00ff11;
+}
+
+#Dark-Green {
+    background: #075a00;
+}
+
+#aqua {
+    background: #00f2ff;
+}
+
+#blue {
+    background: #0000ff;
+}
+
+#grey {
+    background: #323232;
+}
+
+#brown {
+    background: #432c0c;;
+}
+
+#black {
+    background: #000000;
+}
+
+#white {
+    background: #ffffff;
+}
+
+label {
+    height: 0;
+    width: 0;
+    font-size: 0;
 }
