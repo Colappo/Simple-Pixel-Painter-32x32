@@ -109,6 +109,7 @@ p {
     align-items: center;
     padding-top: 5vh;
     background: #767676;
+    min-wid5h: 70px;
 }
 
 .color-button{
