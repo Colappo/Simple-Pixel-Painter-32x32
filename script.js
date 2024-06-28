@@ -38,7 +38,7 @@ function dev() {
     }
 };
 
-function clear() {
+function c() {
     let i_ = 0
     let p;
     while (true) {
